@@ -1,0 +1,14 @@
+{
+  "name": "user-registration-system",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.6"
+  }
+}

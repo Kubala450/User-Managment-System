@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Managment System</title>
+    <link rel="stylesheet" href="../src/styles/output.css" />
+    <script src="../src/js/main.js" defer></script>
+  </head>
+  <body class="bg-gray-100 h-screen flex flex-col">
+    <!-- Header -->
+    <header>
+      <nav class="flex items-center justify-around p-6">
+        <!-- Logo -->
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-12 h-12"
+            aria-hidden="true"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z"
+            />
+          </svg>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="text-xl space-x-12">
+          <a href="#" class="underline-offset-4 hover:underline">Home</a>
+          <a href="#" class="underline-offset-4 hover:underline">Contact</a>
+          <a href="#" class="underline-offset-4 hover:underline">About</a>
+        </div>
+
+        <!-- Login Button and Extra Actions -->
+        <div class="flex items-center space-x-4">
+          <button
+            id="theme-toggle"
+            class="w-10 h-10 bg-zinc-200 rounded-md flex items-center justify-center hover:bg-zinc-300"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.098 19.902a3.75 3.75 0 0 0 5.304 0l6.401-6.402M6.75 21A3.75 3.75 0 0 1 3 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 0 0 3.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008Z"
+              />
+            </svg>
+          </button>
+          <a
+            href="../src/html/login-form.html"
+            class="border-2 border-black rounded-md text-lg font-semibold px-4 py-1 hover:bg-black hover:text-white"
+          >
+            Log In &rarr;
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow flex items-center justify-center p-5">
+      <section class="w-3/5 space-y-7">
+        <!-- Introduction -->
+        <div class="flex justify-center">
+          <span class="border border-neutral-300 p-1 px-4 rounded-full">
+            <p class="text-zinc-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <a href="#" class="text-sky-600 font-semibold hover:underline">
+                Read more &rarr;
+              </a>
+            </p>
+          </span>
+        </div>
+
+        <!-- Main Heading -->
+        <div class="text-center text-6xl font-bold">
+          <h1>User Managment System</h1>
+        </div>
+
+        <!-- Description -->
+        <div class="flex justify-center">
+          <p class="w-5/6 text-lg text-zinc-600">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            iure aut natus consequuntur corrupti quod ea, distinctio quis
+            perspiciatis quae voluptatem omnis consectetur architecto id magnam.
+            Cum dignissimos et assumenda.
+          </p>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="flex justify-center items-center space-x-5">
+          <button
+            class="w-28 h-10 border-2 border-black rounded-md font-semibold hover:bg-black hover:text-white"
+          >
+            Get started
+          </button>
+          <a class="font-semibold text-sky-600 hover:underline" href="#">
+            Learn more &rarr;
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
